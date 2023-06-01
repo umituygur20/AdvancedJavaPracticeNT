@@ -14,12 +14,11 @@ public class S07_StringManipulations {
         System.out.println("Lütfen adinizi,ikindi adinizi ve Soyadınızı giriniz.");
         String str = scan.nextLine();
 
-      String ikinciAd=   str.split(" ")[1].substring(0,1).toUpperCase();
-        String soyAd=   str.split(" ")[2].substring(0,1).toUpperCase();
-        System.out.println(ikinciAd+soyAd);
+        String ikinciAd = str.split(" ")[1].substring(0, 1).toUpperCase();
+        String soyAd = str.split(" ")[2].substring(0, 1).toUpperCase();
+        System.out.println(ikinciAd + soyAd);
 
         //başka bir yol
-
 
 
     }
